@@ -14,8 +14,7 @@ This repository contains implementations of various **ResNet architectures** and
 │── 📜 teacher-student2.py          # Second version of teacher-student distillation training
 │── 📜 utils.py                     # Utility functions
 │── 📜 download_models.sh           # Script to download pretrained models
-│── 📜 requirements.txt             # List of dependencies required to run the project
-│── 📜 README.md                   
+│── 📜 requirements.txt             # List of dependencies required to run the project              
 ```
 
 ---
