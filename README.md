@@ -21,7 +21,7 @@ This repository contains implementations of various **ResNet architectures** and
 
 ## Installation & Setup
 
-Before running the code, install the necessary dependencies and download pretrained models:
+Before running the code, install the necessary dependencies:
 
 ```bash
 pip install -r requirements.txt
