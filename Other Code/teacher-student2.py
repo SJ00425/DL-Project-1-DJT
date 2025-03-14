@@ -101,7 +101,6 @@ class WideResNet(nn.Module):
         return out
 
 def wrn(depth=28, widen_factor=3.7, num_classes=10, dropout_rate=0.0):
-    """Convenience constructor for WideResNet."""
     return WideResNet(depth=depth, widen_factor=widen_factor,
                       num_classes=num_classes, dropout_rate=dropout_rate)
 
@@ -316,7 +315,7 @@ if __name__ == "__main__":
     # 5.1) Load the TEACHER (Large WRN) from 'wideresnet.pth'
     # ---------------------------------------------------------------------
     teacher = WideResNet(depth=40, widen_factor=10, num_classes=10, dropout_rate=0.3)
-    teacher.load_state_dict(torch.load("wideresnet.pth"))
+    teacher.load_state_dict(torch.load("teacher_wideResNet_40-10.pth"))
     teacher.to(device)
     teacher.eval()
 

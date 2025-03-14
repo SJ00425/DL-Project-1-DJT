@@ -414,9 +414,9 @@ if __name__ == "__main__":
 
     # 7.1) Load the TEACHER: PreActResNet152
     teacher = PreActResNet152()
-    teacher_weights = torch.load("PreActResNet152_2_model.pth")
+    teacher_weights = torch.load("teacher_PreAct_ResNet152.pth")
     teacher.load_state_dict(teacher_weights)
-    print("Teacher loaded from PreActResNet152_2_model.pth")
+    print("Teacher loaded.")
 
     # 7.2) Create the STUDENT: CustomResNet18
     student = CustomResNet18(
