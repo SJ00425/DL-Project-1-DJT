@@ -7,7 +7,7 @@ This repository contains implementations of various **ResNet architectures** and
 ## Repository Structure
 
 ```
-📂 deep-learning-spring-2025-project-1/
+📂 Other Code/
 │── 📜 ResNets1.ipynb               # Jupyter Notebook for training ResNet models (Part 1)
 │── 📜 ResNets2.ipynb               # Jupyter Notebook for training ResNet models (Part 2)
 │── 📜 teacher-student1.py          # First version of teacher-student distillation training
