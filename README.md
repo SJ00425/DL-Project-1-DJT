@@ -54,11 +54,11 @@ jupyter notebook ResNets2.ipynb
 Train a student model using a pretrained teacher:
 
 ```bash
-python teacher-student1.py
-```
-or  
+python teacher-student1.py    # Run Pre-Activation ResNet student 
+``` 
+and
 ```bash
-python teacher-student2.py
+python teacher-student2.py    # Run Wide ResNet student
 ```
 
 
